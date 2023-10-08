@@ -1,0 +1,11 @@
+// command design pattern
+
+first thing to create in the command design pattern is the command interface which will have the execute method
+
+the implementation of the command interface will be the concrete command class which will have the receiver object as a member variable.
+
+receiver object is the object which will have the actual implementation of the method which will be called by the command object.
+
+the invoker object will have the command object as a member variable and will call the execute method of the command object.
+
+the client will create the receiver object and the command object and will set the receiver object in the command object and will set the command object in the invoker object.
